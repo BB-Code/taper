@@ -80,6 +80,15 @@
     fs-extra "^10.0.0"
     which "^2.0.2"
 
+"@electron-forge/maker-base@6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-base/-/maker-base-6.1.0.tgz#135d35a436b330f1f0e94933162eb972156e17ac"
+  integrity sha512-pNj/iVSU1NZTUtR5RiY5IyUj1+nHST/lcVmhsvu+3dpOFfcPx91+4E0nGeWMepL5mraFnZO7DQXKPd0/VJsr7w==
+  dependencies:
+    "@electron-forge/shared-types" "6.1.0"
+    fs-extra "^10.0.0"
+    which "^2.0.2"
+
 "@electron-forge/maker-deb@^6.0.5":
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/@electron-forge/maker-deb/-/maker-deb-6.0.5.tgz#62ac16c94172dfbc3b49194624a8c2ef2c855213"
@@ -91,12 +100,12 @@
     electron-installer-debian "^3.0.0"
 
 "@electron-forge/maker-rpm@^6.0.5":
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-rpm/-/maker-rpm-6.0.5.tgz#be1a2ac6d0f3d341db50065246594460bdfef314"
-  integrity sha512-qwrTMo8kBf6fsPi6S22qCvD5F2OeJ8F4c0vuHi9YCUoPVjU3wBsvxi+lJclkdTqgzRWidfZ1vsbltcOSZb+2fw==
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-rpm/-/maker-rpm-6.1.0.tgz#731bfb004370b208db2afc4cf606444774329e2e"
+  integrity sha512-v0r1C+zVlEh+QC8Il5R8Vcj/iErfZ6rjkUumpNBVYwOayHvajy8itiNRBCbd4GAXiVSZFDKygWwsVXdBImxkcQ==
   dependencies:
-    "@electron-forge/maker-base" "6.0.5"
-    "@electron-forge/shared-types" "6.0.5"
+    "@electron-forge/maker-base" "6.1.0"
+    "@electron-forge/shared-types" "6.1.0"
   optionalDependencies:
     electron-installer-redhat "^3.2.0"
 
@@ -139,6 +148,15 @@
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-6.0.5.tgz#8b265687fad188799384f88fba821f8f0eac689e"
   integrity sha512-FrJI11afw/Cxk0JwgWyKg9aPoHOdmMi4JHTY6pnmi95MjarQ1d0SIqKJUzX7q2lXPUAxqPKA2Wmykg6F2CThlg==
+  dependencies:
+    "@electron/rebuild" "^3.2.10"
+    electron-packager "^17.1.1"
+    listr2 "^5.0.3"
+
+"@electron-forge/shared-types@6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-6.1.0.tgz#62e4bb4191fbf72fedbe56e5c4adbd5caa854f9c"
+  integrity sha512-XemHvhVv/wvPfs5wHCp1keNZ7nFsC4U88ySLLznVNYdbe5yORNZhCiZC/vd4RykGIh+37jNnKBLXqzwxygqM4g==
   dependencies:
     "@electron/rebuild" "^3.2.10"
     electron-packager "^17.1.1"
@@ -369,9 +387,9 @@
   integrity sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==
 
 "@types/node@*":
-  version "18.15.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.5.tgz#3af577099a99c61479149b716183e70b5239324a"
-  integrity sha512-Ark2WDjjZO7GmvsyFFf81MXuGTA/d6oP38anyxWOL6EREyBKAxKoFHwBhaZxCfLRLpO8JgVXwqOwSwa7jRcjew==
+  version "18.15.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.10.tgz#4ee2171c3306a185d1208dad5f44dae3dee4cfe3"
+  integrity sha512-9avDaQJczATcXgfmMAW3MIWArOO7A+m90vuCFLr8AotWf8igO/mRoYukrk2cqZVtv38tHs33retzHEilM7FpeQ==
 
 "@types/node@^16.11.26":
   version "16.18.18"
